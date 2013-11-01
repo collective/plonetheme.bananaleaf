@@ -12,7 +12,7 @@ setup(
         version='1.1',
         author='Giacomo Spettoli',
         author_email='giacomo.spettoli@gmail.com',
-        url='http://svn.plone.org/svn/collective/plonetheme.bananaleaf',
+        url='https://github.com/collective/plonetheme.bananaleaf',
         packages=find_packages(),
         include_package_data=True,
         namespace_packages=[
