@@ -9,9 +9,17 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="Plone 4 Theme: Bananaleaf"
+      title="plonetheme.bananaleaf"
       directory="profiles/default"
       description="Installs the plonetheme.bananaleaf package"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="plonetheme.bananaleaf: Uninstall profile for Plone 4 Diazo Theme"
+      directory="profiles/uninstall"
+      description="Uninstalls the plonetheme.bananaleaf package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
